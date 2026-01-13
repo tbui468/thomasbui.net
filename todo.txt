@@ -1,0 +1,14 @@
+Make github repo and push
+
+Develop locally, and push to server updates rather than working on server directly
+
+Dynamically generate blog posts from database
+    use in-memory data to test first
+
+Aside on right column showing my information
+    name, email
+
+Connect postgres database
+    Posts
+
+1st post - ARC paper algorithm walkthrough
