@@ -1,14 +1,25 @@
-Make github repo and push
+thomasbui.net is autograded igcse cs 15 pointer questions
 
-Develop locally, and push to server updates rather than working on server directly
+Follow commits in snippetbox on github, changing/testing/deploying to thomasbui.net as necessary
 
-Dynamically generate blog posts from database
-    use in-memory data to test first
+Chapter 2 (basic templates)
+Chapter 3
+Chapter 4
+Chapter 5
+Chapter 6
+Chapter 7
+Chapter 8
+Chapter 9
+Chapter 10
+Chapter 11
+Chapter 12
+Chapter 13
+Chapter 14
+Chapter 15
 
-Aside on right column showing my information
-    name, email
 
 Connect postgres database
-    Posts
 
-1st post - ARC paper algorithm walkthrough
+Login (Authentication)
+    Allow login of a user
+

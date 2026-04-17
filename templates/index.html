@@ -1,8 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head><title>{{.Title}}</title></head>
-    <body>
-        <h1>{{.Heading}}</h1>
-        <p>{{.Message}}</p>
-    </body>
-</html>
+
+{{define "content"}}
+<h1>{{.Heading}}</h1>
+{{range .Posts}}
+<section>
+    <h2><a href="/post?pid={{.Id}}">{{.Title}}</a></h2>
+    <p>date goes here</p>
+    <p>{{.Content}}</p>
+    <a href="/post?pid={{.Id}}">READ MORE</a>
+</section>
+{{end}}
+{{end}}

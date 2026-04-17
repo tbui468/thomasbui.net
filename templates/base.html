@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{.Title}}</title>
+        <style>
+            body {
+                display: flex;
+            }
+            main {
+                width: 75%;
+                margin-left: 64px;
+                padding: 64px;
+            }
+            aside {
+                width: 25%;
+                margin-right: 64px;
+                padding: 64px;
+            }
+            section {
+                border-top: 1px solid gray;
+                margin-bottom: 64px;
+                padding-top: 32px;
+            }
+            a {
+                text-decoration: none;
+                color: royalblue;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <a href="/">HOME</a>
+            {{block "content" .}}Default Content{{end}}
+        </main>
+        <aside>
+            <h2>Thomas Bui</h2>
+            <p>thomasthienbui@gmail.com</p>
+            <p>https://github.com/tbui468</p>
+        </aside>
+    </body>
+</html>
